@@ -27,6 +27,8 @@ The application is deployed on a cloud platform, and the caption images are prov
 This project is open-source and licensed under [GNU GENERAL PUBLIC LICENSELicense Name]. Feel free to use, modify, and contribute to enhance the app!
 
 
+Here are some screenshot about app:
+
 
 
 
