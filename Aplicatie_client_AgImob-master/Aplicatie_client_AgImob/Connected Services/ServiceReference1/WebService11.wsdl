@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AdaugareDateProprietar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cnp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nume" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="prenume" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="telefon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdaugareDateProprietarResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AdaugareTipImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_imobil" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipulimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="descrieretip" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdaugareTipImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AdaugareImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_prop" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="cnp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adresaimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="camere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="marimeimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pretimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dataimob" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AdaugareImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="StergereDateProprietar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cnp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StergereDateProprietarResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="StergereTipImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_imobil" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StergereTipImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="StergereImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_prop" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StergereImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ModificareImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_prop" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="cnp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adresaimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="camere" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="marimeimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pretimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dataimob" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificareImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ModificareTipImobil">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Id_imobil" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipulimob" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="descrieretip" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificareTipImobilResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ModificareDatePropr">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cnp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nume" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="prenume" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="adresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="telefon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificareDateProprResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AdaugareDateProprietarSoapIn">
+    <wsdl:part name="parameters" element="tns:AdaugareDateProprietar" />
+  </wsdl:message>
+  <wsdl:message name="AdaugareDateProprietarSoapOut">
+    <wsdl:part name="parameters" element="tns:AdaugareDateProprietarResponse" />
+  </wsdl:message>
+  <wsdl:message name="AdaugareTipImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:AdaugareTipImobil" />
+  </wsdl:message>
+  <wsdl:message name="AdaugareTipImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:AdaugareTipImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="AdaugareImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:AdaugareImobil" />
+  </wsdl:message>
+  <wsdl:message name="AdaugareImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:AdaugareImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="StergereDateProprietarSoapIn">
+    <wsdl:part name="parameters" element="tns:StergereDateProprietar" />
+  </wsdl:message>
+  <wsdl:message name="StergereDateProprietarSoapOut">
+    <wsdl:part name="parameters" element="tns:StergereDateProprietarResponse" />
+  </wsdl:message>
+  <wsdl:message name="StergereTipImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:StergereTipImobil" />
+  </wsdl:message>
+  <wsdl:message name="StergereTipImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:StergereTipImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="StergereImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:StergereImobil" />
+  </wsdl:message>
+  <wsdl:message name="StergereImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:StergereImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificareImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificareImobil" />
+  </wsdl:message>
+  <wsdl:message name="ModificareImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificareImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificareTipImobilSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificareTipImobil" />
+  </wsdl:message>
+  <wsdl:message name="ModificareTipImobilSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificareTipImobilResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificareDateProprSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificareDatePropr" />
+  </wsdl:message>
+  <wsdl:message name="ModificareDateProprSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificareDateProprResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="AdaugareDateProprietar">
+      <wsdl:input message="tns:AdaugareDateProprietarSoapIn" />
+      <wsdl:output message="tns:AdaugareDateProprietarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareTipImobil">
+      <wsdl:input message="tns:AdaugareTipImobilSoapIn" />
+      <wsdl:output message="tns:AdaugareTipImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareImobil">
+      <wsdl:input message="tns:AdaugareImobilSoapIn" />
+      <wsdl:output message="tns:AdaugareImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StergereDateProprietar">
+      <wsdl:input message="tns:StergereDateProprietarSoapIn" />
+      <wsdl:output message="tns:StergereDateProprietarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StergereTipImobil">
+      <wsdl:input message="tns:StergereTipImobilSoapIn" />
+      <wsdl:output message="tns:StergereTipImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StergereImobil">
+      <wsdl:input message="tns:StergereImobilSoapIn" />
+      <wsdl:output message="tns:StergereImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificareImobil">
+      <wsdl:input message="tns:ModificareImobilSoapIn" />
+      <wsdl:output message="tns:ModificareImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificareTipImobil">
+      <wsdl:input message="tns:ModificareTipImobilSoapIn" />
+      <wsdl:output message="tns:ModificareTipImobilSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificareDatePropr">
+      <wsdl:input message="tns:ModificareDateProprSoapIn" />
+      <wsdl:output message="tns:ModificareDateProprSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AdaugareDateProprietar">
+      <soap:operation soapAction="http://tempuri.org/AdaugareDateProprietar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareTipImobil">
+      <soap:operation soapAction="http://tempuri.org/AdaugareTipImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareImobil">
+      <soap:operation soapAction="http://tempuri.org/AdaugareImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereDateProprietar">
+      <soap:operation soapAction="http://tempuri.org/StergereDateProprietar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereTipImobil">
+      <soap:operation soapAction="http://tempuri.org/StergereTipImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereImobil">
+      <soap:operation soapAction="http://tempuri.org/StergereImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareImobil">
+      <soap:operation soapAction="http://tempuri.org/ModificareImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareTipImobil">
+      <soap:operation soapAction="http://tempuri.org/ModificareTipImobil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareDatePropr">
+      <soap:operation soapAction="http://tempuri.org/ModificareDatePropr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AdaugareDateProprietar">
+      <soap12:operation soapAction="http://tempuri.org/AdaugareDateProprietar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareTipImobil">
+      <soap12:operation soapAction="http://tempuri.org/AdaugareTipImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdaugareImobil">
+      <soap12:operation soapAction="http://tempuri.org/AdaugareImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereDateProprietar">
+      <soap12:operation soapAction="http://tempuri.org/StergereDateProprietar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereTipImobil">
+      <soap12:operation soapAction="http://tempuri.org/StergereTipImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StergereImobil">
+      <soap12:operation soapAction="http://tempuri.org/StergereImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareImobil">
+      <soap12:operation soapAction="http://tempuri.org/ModificareImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareTipImobil">
+      <soap12:operation soapAction="http://tempuri.org/ModificareTipImobil" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificareDatePropr">
+      <soap12:operation soapAction="http://tempuri.org/ModificareDatePropr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44392/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44392/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
