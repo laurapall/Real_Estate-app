@@ -34,8 +34,7 @@ Here are some screenshot about app:
  ![Agentie imobiliara app](https://imgtr.ee/images/2023/07/15/5aee33e708b9b22c4b9f11ae8a890613.png)
 
 
-
-
+2.
 
 
 
