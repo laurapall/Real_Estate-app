@@ -29,7 +29,7 @@ This project is open-source and licensed under [GNU GENERAL PUBLIC LICENSELicens
 
 Here are some screenshot about app:
 
-  <img src="https://github.com/laurapall/Real_Estate-app/assets/48211193/5ad41136-358f-4431-96fd-10b08795a231" alt="Alt Text">
+
 
 
 
