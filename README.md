@@ -40,28 +40,26 @@ Here are some screenshot about app:
 
 3. Type of properties:
 
-   <img src= https://imgtr.ee/images/2023/07/16/27cef901c8680634b7a9e077125fbd16 alt="Type" width="80%" height="80%">
+   <img src= https://imgtr.ee/images/2023/07/16/27cef901c8680634b7a9e077125fbd16.png alt="Type" width="80%" height="80%">
 
 4. Property details:
 
- <img src= https://imgtr.ee/images/2023/07/16/140af894a1062fcf58798d76ce11afc7 alt="Property" width="80%" height="80%">
+ <img src= https://imgtr.ee/images/2023/07/16/140af894a1062fcf58798d76ce11afc7.png alt="Property" width="80%" height="80%">
 
 5. Searching property:
    
- <img src= https://imgtr.ee/images/2023/07/16/8e73a38d0f9a472d568a33c9384cecb1 alt="Search" width="80%" height="80%">
+ <img src= https://imgtr.ee/images/2023/07/16/8e73a38d0f9a472d568a33c9384cecb1.png alt="Search" width="80%" height="80%">
 
 6. Searching owners:
  
-https://imgtr.ee/images/2023/07/16/a95f5e1fadbcc84dc1fb6da66ae38aa2.png
-
- <img src= https://imgtr.ee/images/2023/07/16/a95f5e1fadbcc84dc1fb6da66ae38aa2 alt="Search1" width="80%" height="80%">
+ <img src= https://imgtr.ee/images/2023/07/16/a95f5e1fadbcc84dc1fb6da66ae38aa2.png alt="Search1" width="80%" height="80%">
 
 7. Searching type of property:
 
-   <img src= https://imgtr.ee/images/2023/07/16/5f3d44b6fc1ec86f17a750441d5d0b02 alt="Search2" width="80%" height="80%">
+   <img src= https://imgtr.ee/images/2023/07/16/5f3d44b6fc1ec86f17a750441d5d0b02.png alt="Search2" width="80%" height="80%">
 
 8. Finish page
    
-   <img src= https://imgtr.ee/images/2023/07/16/d4e6d4ddd7af82c15a7fa55a7a47c4d8 alt="Finish" width="80%" height="80%">
+   <img src= https://imgtr.ee/images/2023/07/16/d4e6d4ddd7af82c15a7fa55a7a47c4d8.png alt="Finish" width="80%" height="80%">
   
 
