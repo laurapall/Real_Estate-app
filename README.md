@@ -33,12 +33,8 @@ Here are some screenshot about app:
 
 <img src= https://imgtr.ee/images/2023/07/15/5aee33e708b9b22c4b9f11ae8a890613.png alt="Form1" width="80%" height="80%">
 
- ![Form1](https://imgtr.ee/images/2023/07/15/5aee33e708b9b22c4b9f11ae8a890613.png)
-
 
 2. Owners details:
-
-  ![Form1](https://imgtr.ee/images/2023/07/16/3388ea49d93dbaf8868a5b949942aac4.png)
 
 <img src= https://imgtr.ee/images/2023/07/16/3388ea49d93dbaf8868a5b949942aac4.png alt="Owner" width="80%" height="80%">
 
