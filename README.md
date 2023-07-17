@@ -62,4 +62,5 @@ Here are some screenshot about app:
    
    <img src= https://imgtr.ee/images/2023/07/16/d4e6d4ddd7af82c15a7fa55a7a47c4d8.png alt="Finish" width="80%" height="80%">
   
-📝 Author: Pall Laura
+📝 Author: 
+* [Pall Laura](https://github.com/laurapall)
